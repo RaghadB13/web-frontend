@@ -10,7 +10,7 @@ Design and Layout: Developed using custom CSS3, featuring responsive designs and
 
 Navigation: A seamless, multi-page structure provides an intuitive user experience.
 
-# Highlights of the Repository
+# Repository Contents
 
 This portfolio reflects a diverse technical background, including:
 
