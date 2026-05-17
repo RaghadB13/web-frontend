@@ -1,4 +1,4 @@
-# web-frontend
+# Web-frontend
 
 A multi-page online portfolio designed to showcase technical skills and academic projects. This project highlights the ability to build organized, interactive, and user-friendly web applications, with a focus on clean code and a professional presentation.
 
