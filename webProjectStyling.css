@@ -1,0 +1,197 @@
+body{
+    background-image: url(bg2.jpg);
+
+}
+
+
+#HPmain{
+  
+    margin-left: 90px;
+    
+    line-height: 0.3px
+}
+
+
+#AMmain p{
+    background-color: rgba(221,160,221,0.7);
+    /opacity: 0.5;/
+    font-size: 27px;
+    margin-right: 50px;
+    margin-left: 50px;
+   /margin-top: 60px;/
+    color:white ;
+
+}
+.image-container {
+    width: 92%; 
+    height: 90px; 
+    background-image: url(am2.jpg) ; 
+    background-repeat: repeat-x; 
+    background-size: 100px 100px; 
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
+nav{
+
+    padding: 10px;
+    margin: 5px;
+    display: flex; /* عرض العناصر في صف */
+    justify-content: flex-end;
+}
+nav ul{
+
+    list-style-type: none; /* إزالة نقاط القائمة */
+    margin: 0; /* إزالة الهوامش */
+    padding: 0; /* إزالة padding */
+    display: flex; /* عرض العناصر في صف */
+}
+nav li {
+
+    margin: 0 15px; /* مسافة بين العناصر */
+}
+
+nav a {
+
+    color: black; /* لون النص */
+    text-decoration: none; /* إزالة التسطير */
+    padding: 6px 15px; /* Padding داخل الروابط */
+
+}
+
+#wrapper{
+
+    min-width :900px;
+    max-width:1280px;
+    box-shadow:5px 10px 20px grey;
+    width:100%;
+    height:100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+
+
+header{
+    background-color: rgba(238, 150, 175, 1);;
+    padding: 3px;
+    border:2px solid black ;
+
+
+}
+
+footer{
+    clear:both;
+    display:block;
+    padding:10px;
+    
+    background-color:rgba(238, 150, 175, 1);
+    font-size:.60em;
+    text-align:center;
+    font-style:italic;
+}
+/* projects*/
+/* projects*/
+/* projects*/
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.project-card {
+    background: plum;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom:50px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* cotact us*/
+/* cotact us*/
+/* cotact us*/
+.container {
+    max-width: 600px;
+    margin-left: 20px;
+    /* background-color: #4b0082;  */
+    padding: 20px;
+    border-radius: 10px;
+
+}
+h1 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* تنسيق المكان الابيض اللي نكتب فيه المعلومات*/
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background-color: rgba(221,160,221,1);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer; /* i cant click on the button without it */
+    width: 20%;
+}
+
+.contact-info {
+
+    margin-right: 50px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+/* skills and hobbies*/
+/* skills and hobbies*/
+/* skills and hobbies*/
+.skill {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px 0;
+    color: white;
+    margin-right: 785px;
+}
+meter {
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    background: white; /* Background color */
+
+}
+/* Using the ::webkit-meter-* pseudo-elements for styling the filled area */
+meter::-webkit-meter-optimum-value {
+    background: purple; /* Change the filled color */
+}
+meter::-webkit-meter-suboptimum-value {
+    background: purple; /* Change the filled color for suboptimal values */
+}
+meter::-webkit-meter-even-less-good-value {
+    background: purple; /* Change the filled color for even less good values */
+}  
+ .right {
+            flex: 1;
+            padding: 20px;
+            background-color: #d0d0d0;
+            margin-left: 10px;
+        }
