@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="webProjectStyling.css">
+    <script>
+        function validateForm() {
+            let x = document.getElementById("first-name").value;
+            if (x === "") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="homePage.html"><b>Home</b></a></li> 
+                    <li><a href="AboutMe.html"><b>About Me</b></a></li> 
+                    <li><a href="projects.html"><b>Projects</b></a></li> 
+                    <li><a href="Skills.html"><b>Skills</b></a></li> 
+                    <li><a href="ContactInfo.html"><b>Contact Info</b></a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <main style="color: white; padding: 20px;">
+            <div class="container">
+                <span style="background: rgba(221,160,221,0.5); color:white; margin-right: 50px; margin-left: 20px;"> Sadeel's Contact Information</span>
+                <div class="contact-info">
+                    <p><b>📞0547882633</b></p>
+                    <p><b>✉sadeelhatim21@gmail.com</b></p>
+                </div>
+                <span style="background: rgba(221,160,221,0.5); color:white; margin-right: 50px; margin-left: 20px;"> Raghad's Contact Information</span>
+                <div class="contact-info">
+                    <p><b>📞0535177811</b></p>
+                    <p><b>✉rgood7046@gmail.com</b></p>
+                </div>
+                <span style="background: rgba(221,160,221,0.5); color:white; margin-right: 50px; margin-left: 20px;"> Ruyuf's Contact Information</span>
+                <div class="contact-info">
+                    <p><b>📞0547950039</b></p>
+                    <p><b>✉rkaljubayri@gmail.com</b></p>
+                </div>
+                <h1 style="background: rgba(221,160,221,0.5); color:white; margin-right: 50px; margin-left: 20px;">Send a Message</h1>
+
+                <form onsubmit="showConfirmation(event); validateForm();">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            Copyright © personal portfolio<br/>
+        </footer>
+    </div>
+
+    <script>
+        function showConfirmation(event) {
+            event.preventDefault();
+            alert("Your message has been sent successfully!");
+        }
+    </script>
+</body>
+</html>
